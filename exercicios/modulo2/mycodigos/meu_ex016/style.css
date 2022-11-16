@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+* {
+    /*height: 100%;*/
+    font-family: "Work sans";
+}
+
+body {
+    background-color: #321240 ;
+}
+
+main {
+    background-color: #D91E63;
+    border-radius: 10px;
+    box-shadow: 6px 6px 18px #c84ffc;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #321240;
+    text-align: center;
+    text-shadow: 1px 1px 2px #c84ffc;
+}
+
+h2 {
+    color: #591855 ;
+}
+
+p {
+    text-align: justify;
+}
