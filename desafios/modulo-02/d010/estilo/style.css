@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: 'Aquire';
-    src: url(/fontes/AquireBold-8Ma60.otf) format('opentype');
+    src: url(../fontes/AquireBold-8Ma60.otf) format('opentype');
     font-weight: normal;
 }
 
@@ -47,11 +47,11 @@
     --cor04: #908DB8;
     --cor05: #686685;
 
-    --fonte-padrao: 'Padrao', cursive;
-    --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-android: 'Android', cursive;
-    --fonte-aquire: 'Aquire', cursive;
-    --fonte-montserrat: 'Montserrat', cursive;
+    --fonte-padrao: 'Padrao';
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+    --fonte-android: 'Android';
+    --fonte-aquire: 'Aquire';
+    --fonte-montserrat: 'Montserrat', sans-serif;
 }
 
 body {
@@ -122,7 +122,7 @@ nav > a:hover {
 }
 
 header > h1 {
-    font-family: var(--fonte-aquire);
+    font-family: var(--fonte-aquire) ;
     font-size: 2.3em;
     text-align: center;
     
